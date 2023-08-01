@@ -3,14 +3,77 @@
     --gray-color: #E5E7E9;
     --yellow-color: #F1C40F;
     font-family: 'Tektur', cursive;
+    margin-top: 0px;
 }
 
 body {
     background-color: var(--black-color);
+    scroll-behavior: smooth;
 }
 
 h1 {
     color: var(--gray-color);
     font-weight: 700;
-    font-size: 100px;
+    font-size: 120px;
+    margin: 0px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-family: 'Tektur', cursive;
+}
+
+/* flexbox */
+.horizontal-split {
+    display: flex;
+}
+
+.horizontal-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitle {
+    color: var(--yellow-color);
+    font-weight: 600;
+    font-size: 60px;
+}
+
+/* navbar */
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-headers {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+/* images */ 
+
+.image-border {
+    border-radius: 15px;
+}
+
+/* gaps and margins */
+.left-margins {
+    margin-left: 10%;
+    margin-top: 10%;
+} 
+
+.right-margins {
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+/* text */
+.headers {
+    color: var(--yellow-color);
+    font-size: 20px;
 }
