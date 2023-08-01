@@ -1,0 +1,16 @@
+:root {
+    --black-color: #212F3C;
+    --gray-color: #E5E7E9;
+    --yellow-color: #F1C40F;
+    font-family: 'Tektur', cursive;
+}
+
+body {
+    background-color: var(--black-color);
+}
+
+h1 {
+    color: var(--gray-color);
+    font-weight: 700;
+    font-size: 100px;
+}
