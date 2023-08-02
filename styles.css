@@ -1,5 +1,5 @@
 :root {
-    --black-color: #212F3C;
+    --black-color: #5D6D7E;
     --gray-color: #E5E7E9;
     --yellow-color: #F1C40F;
     font-family: 'Tektur', cursive;
@@ -47,6 +47,12 @@ button {
     color: var(--yellow-color);
     font-weight: 600;
     font-size: 60px;
+}
+
+.socials {
+    color: var(--yellow-color);
+    font-weight: 600;
+    font-size: 45px;
 }
 
 .headers {
