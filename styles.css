@@ -1,113 +1,113 @@
 :root {
-    --black-color: #5D6D7E;
-    --gray-color: #E5E7E9;
-    --yellow-color: #F1C40F;
-    font-family: 'Tektur', cursive;
-    margin-top: 0px;
-    scroll-behavior: smooth;
+  --black-color: #5d6d7e;
+  --gray-color: #e5e7e9;
+  --yellow-color: #f1c40f;
+  font-family: "Tektur", cursive;
+  margin-top: 0px;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: var(--black-color);
+  background-color: var(--black-color);
 }
 
 h1 {
-    color: var(--gray-color);
-    font-weight: 700;
-    font-size: 98px;
-    margin: 0px;
+  color: var(--gray-color);
+  font-weight: 700;
+  font-size: 98px;
+  margin: 0px;
 }
 
 p {
-    color: var(--gray-color);
-    font-weight: 500;
-    font-size: 28px;
+  color: var(--gray-color);
+  font-weight: 500;
+  font-size: 28px;
 }
 
 button {
-    background-color: transparent;
-    border: none;
-    font-family: 'Tektur', cursive;
+  background-color: transparent;
+  border: none;
+  font-family: "Tektur", cursive;
 }
 
 /* flexbox */
 
 .horizontal-split {
-    display: flex;
+  display: flex;
 }
 
 .horizontal-space-between {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .center-image {
-    text-align:center;
-    display: block;
-    margin: auto;
+  text-align: center;
+  display: block;
+  margin: auto;
 }
 
 /* text */
 
 .subtitle {
-    color: var(--yellow-color);
-    font-weight: 600;
-    font-size: 60px;
+  color: var(--yellow-color);
+  font-weight: 600;
+  font-size: 60px;
 }
 
 .socials {
-    color: var(--yellow-color);
-    font-weight: 600;
-    font-size: 45px;
+  color: var(--yellow-color);
+  font-weight: 600;
+  font-size: 45px;
 }
 
 .headers {
-    color: var(--yellow-color);
-    font-size: 20px;
+  color: var(--yellow-color);
+  font-size: 20px;
 }
 
 .gray-text {
-    color: var(--gray-color);
+  color: var(--gray-color);
 }
 
 /* navbar */
 
 .navbar {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .navbar-headers {
-    display: flex;
-    justify-content: space-between;
-    width: 400px;
-    margin-top: 2%;
-    margin-right: 5%;
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  margin-top: 2%;
+  margin-right: 5%;
 }
 
-/* images */ 
+/* images */
 
 .image-border {
-    border-radius: 15px;
+  border-radius: 15px;
 }
 
 /* gaps and margins */
 .left-margin {
-    margin-left: 10%;
-} 
+  margin-left: 10%;
+}
 
 .top-margin {
-    margin-top: 10%;
+  margin-top: 10%;
 }
 
 .top-margin-small {
-    margin-top: 5%;
+  margin-top: 5%;
 }
 
 .right-margin {
-    margin-right: 10%;
+  margin-right: 10%;
 }
 
 .bottom-margin {
-    margin-bottom: 10%;
+  margin-bottom: 10%;
 }
