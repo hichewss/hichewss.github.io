@@ -41,6 +41,12 @@ button {
     justify-content: space-between;
 }
 
+.center-image {
+    text-align:center;
+    display: block;
+    margin: auto;
+}
+
 /* text */
 
 .subtitle {
@@ -74,7 +80,7 @@ button {
 .navbar-headers {
     display: flex;
     justify-content: space-between;
-    width: 300px;
+    width: 400px;
     margin-top: 2%;
     margin-right: 5%;
 }
