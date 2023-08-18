@@ -2,8 +2,10 @@
 <html>
   <head>
     <title>Chuyi Zhang</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&family=Victor+Mono:wght@100;200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link href="styles.css" rel="stylesheet" />
@@ -11,10 +13,10 @@
   <body>
     <div class="navbar">
       <div class="navbar-headers">
-        <a class="headers pr-2" href="#about">About</a>
-        <a class="headers pr-2" href="#experience">Experience</a>
-        <a class="headers pr-2" href="#projects">Projects</a>
-        <a class="headers pr-2" href="#skills">Skills</a>
+        <a class="headers" href="#about">About</a>
+        <a class="headers" href="#experience">Experience</a>
+        <a class="headers" href="#projects">Projects</a>
+        <a class="headers" href="#skills">Skills</a>
         <a
           class="headers"
           href="https://tinyurl.com/chuyizhangresume"
@@ -23,67 +25,45 @@
         >
       </div>
     </div>
-    <div class="horizontal-space-between left-margin top-margin right-margin">
-      <div>
-        <h1>Hi, I'm Chuyi.</h1>
-        <div class="subtitle">It's good to see you here.</div>
-        <div class="horizontal-space-between right-margin">
-          <a
-            class="socials"
-            href="https://www.linkedin.com/in/hichews"
-            target="_blank"
-            >LinkedIn</a
-          >
-          <div class="socials">|</div>
-          <a
-            class="socials"
-            href="https://www.github.com/hichewss"
-            target="_blank"
-            >Github</a
-          >
-          <div class="socials">|</div>
-          <a class="socials" href="mailto: hichews@stanford.edu" target="_blank"
-            >Email</a
-          >
+    <div
+      class="horizontal-space-between center-flex left-margin top-margin right-margin"
+    >
+      <div id="about">
+        <div class="header-box">
+          <h1 class="type-word-out">Hi, I'm Chuyi.</h1>
         </div>
+        <div class="subtitle pb-15">It's good to see you here.</div>
+        <h2>
+          I'm a rising junior at Stanford studying computer science and biology.
+          As someone who loves building things and solving problems, I'm looking
+          to see what software engineering careers are out there for me.
+          <br />
+          <br />
+        </h2>
+        <h2>
+          I've gone from having no experience to publishing high demand Colab
+          notebooks as an NLP research assistant, educating over 20 students on
+          C++ and Python data structures and algorithms for Stanford's
+          introductory CS courses, and developing full-stack implementations as
+          a software engineering intern at a startup. I'm currently hoping to
+          explore careers in industry further, specifically in relation to
+          systems and cybersecurity. <br />
+          <br />
+        </h2>
+        <h2>
+          When I'm not coding, I'm dancing, riding my bike, or stuffing my face
+          with food. <br />
+          <br />
+        </h2>
       </div>
       <img
         class="image-border"
-        src="images/profilepic.JPG"
+        src="images/Chuyi_Zhang.JPG"
         alt="Profile Picture"
-        width="40%"
-        height="40%"
-      />
-    </div>
-    <div class="left-margin top-margin right-margin">
-      <div id="about" class="subtitle">About</div>
-      <p>
-        My name is Chuyi Zhang and I'm a
-        <u>rising junior at Stanford University</u>
-        studying computer science and biology. I never thought I would be
-        studying anything engineering-related coming into college, but here I
-        am! I'm not exactly sure what I want to be doing post-undergrad, so I've
-        been using these few years to explore my many options, including
-        <u>software engineering, research, and teaching</u>.
-      </p>
-      <p>
-        What I have learned about myself from these experiences is that I like
-        the <u>balance of working independently and in team environments</u>. I
-        also realize I like the aspects of <u>being creative</u> and
-        <u>getting to know my team members outside of work</u>. In my free time,
-        I spend a lot of time dancing on campus and eating good food around the
-        area.
-      </p>
-      <img
-        class="center-image image-border"
-        src="./images/dance.JPG"
+        s
         width="30%"
         height="30%"
       />
-      <figcaption class="center-image gray-text italic pt-3">
-        Me with a few members of Stanford Alliance Dance. <br />
-        I'll be one of the social chairs for next year!
-      </figcaption>
     </div>
     <div class="left-margin top-margin-small right-margin">
       <div id="experience" class="subtitle">Experience</div>
@@ -95,7 +75,7 @@
           href="https://arxiv.org/abs/2212.14024"
           target="_blank"
           >Demonstrate-Search-Predict</a
-        >, an NLP framemwork taught and used in Stanford's NLP classes).
+        >, an NLP framework taught and used in Stanford's NLP classes).
       </p>
       <p>
         I recently
@@ -126,15 +106,6 @@
         their new logo with Adobe Illustrator. They're pretty cool people, and
         I'm looking forward to continue working with them!
       </p>
-      <img
-        class="center-image image-border"
-        src="./images/dspy.png"
-        width="30%"
-        height="30%"
-      />
-      <figcaption class="center-image gray-text italic pt-3">
-        A simple Pytorch-inspired logo I drew for DSP.
-      </figcaption>
       <p>
         In spring 2023, I was also selected to be a <u>section leader</u> for
         Stanford's introductory computer science courses. I've led 50-minute
@@ -172,15 +143,6 @@
         <u>shaping the positive way</u> in which I now view
         <u>collaborating</u> with others.
       </p>
-      <img
-        class="center-image image-border"
-        src="./images/AimLabs.png"
-        width="30%"
-        height="30%"
-      />
-      <figcaption class="center-image gray-text italic pt-3">
-        Me playing my team's Aim Labs game. It's controlled by a Wii remote!
-      </figcaption>
       <p>
         Last year, I was one of five
         <a
@@ -200,7 +162,7 @@
         past Dollies to look back on old memories and new Dollies to learn about
         their lineage.
       </p>
-      <img
+      <!-- <img
         class="center-image image-border"
         src="./images/dollies.jpeg"
         width="20%"
@@ -208,7 +170,7 @@
       />
       <figcaption class="center-image gray-text italic pt-3">
         Me with the other 22-23 Dollies!
-      </figcaption>
+      </figcaption> -->
       <p>
         I have other small projects sprinkled here and there through which I've
         learned simple machine-learning and app development. They can be found
