@@ -1,5 +1,6 @@
 :root {
   --black-color: #1b2631;
+  --navbar-color: #17202a;
   --purple-color: #9999ff;
   --gray-color: #d5dbdb;
   --orange-color: #ffa62b;
@@ -9,6 +10,7 @@
 
 body {
   background-color: var(--black-color);
+  margin: 0;
 }
 
 h1 {
@@ -53,8 +55,8 @@ a {
 }
 
 li {
-  list-style-type: square;
-  font-size: 14px;
+  list-style-type: none;
+  font-size: 16px;
   list-style-image: url(./images/listimage.png);
   margin-bottom: 10px;
 }
@@ -81,9 +83,6 @@ li {
 ul {
   font-family: "Victor Mono", monospace;
   color: var(--gray-color);
-  font-weight: 500;
-  font-size: 18px;
-  list-style-type: disc;
 }
 
 /* flexbox */
@@ -95,6 +94,11 @@ ul {
 .horizontal-space-between {
   display: flex;
   justify-content: space-between;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
 }
 
 .center-flex {
@@ -147,6 +151,23 @@ ul {
 
 /* navbar */
 
+.line {
+  width: 15vw;
+  border-bottom: 2px solid var(--gray-color);
+}
+
+.icon-spacing {
+  margin-right: 10px;
+}
+
+.navbar-background {
+  background-color: var(--navbar-color);
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+}
+
 .navbar {
   display: flex;
   justify-content: flex-end;
@@ -157,8 +178,6 @@ ul {
   justify-content: space-between;
   align-items: center;
   width: 500px;
-  margin-top: 2%;
-  margin-right: 10%;
   font-family: "Rubik", sans-serif;
 }
 
@@ -278,6 +297,10 @@ ul {
 
 .top-margin-small {
   margin-top: 5%;
+}
+
+.top-margin-xs {
+  margin-top: 2%;
 }
 
 .right-margin {
