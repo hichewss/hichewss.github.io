@@ -194,7 +194,20 @@ ul {
   }
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /* activities */
+.activity {
+  animation: fadeIn 1s;
+}
+
 .activities-hide {
   display: none;
 }
