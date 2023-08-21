@@ -187,6 +187,10 @@ ul {
   border-radius: 10px;
 }
 
+.project-image-border {
+  border-radius: 3px;
+}
+
 .image-box {
   position: absolute;
   border-radius: 10px;
@@ -286,6 +290,45 @@ ul {
   color: var(--black-color);
 }
 
+/* projects */
+.projects {
+  width: 80%;
+}
+
+.projects-box {
+  width: 40vh;
+  height: 40vh;
+  border-radius: 10px;
+  background-color: var(--navbar-color);
+  padding: 40px 50px;
+  display: flex;
+  justify-content: center;
+  margin-right: 5%;
+}
+
+.projects-header {
+  font-family: "Rubik", sans-serif;
+  color: var(--gray-color);
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.projects-description {
+  font-family: "Victor Mono", monospace;
+  color: var(--orange-color);
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.projects-link {
+  font-family: "Rubik", sans-serif;
+  color: var(--gray-color);
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+}
+
 /* gaps and margins */
 .left-margin {
   margin-left: 10%;
@@ -313,4 +356,20 @@ ul {
 
 .bottom-margin {
   margin-bottom: 10%;
+}
+
+.padding-top-small {
+  padding-top: 10px;
+}
+
+.padding-top {
+  padding-top: 20px;
+}
+
+.padding-bottom-small {
+  padding-bottom: 20px;
+}
+
+.padding-right-small {
+  padding-right: 10px;
 }
