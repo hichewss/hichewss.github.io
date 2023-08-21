@@ -57,7 +57,7 @@ a {
 li {
   list-style-type: none;
   font-size: 16px;
-  list-style-image: url(./images/listimage.png);
+  list-style-image: url(./favicon.ico);
   margin-bottom: 10px;
 }
 
@@ -292,7 +292,7 @@ ul {
 
 /* projects */
 .projects {
-  width: 80%;
+  width: 100%;
 }
 
 .projects-box {
@@ -308,6 +308,7 @@ ul {
 
 .projects-header {
   font-family: "Rubik", sans-serif;
+  text-align: center;
   color: var(--gray-color);
   font-weight: 600;
   font-size: 32px;
