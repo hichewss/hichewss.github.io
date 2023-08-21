@@ -18,8 +18,8 @@
         <a class="headers" href="#projects">Projects</a>
         <a class="headers" href="#skills">Skills</a>
         <a
-          class="headers"
-          href="https://tinyurl.com/chuyizhangresume"
+          class="resume-button"
+          href="https://tinyurl.com/chuyizhangresume2024"
           target="_blank"
           >Resume</a
         >
@@ -67,62 +67,113 @@
     </div>
     <div class="left-margin top-margin-small right-margin">
       <div id="experience" class="subtitle">Experience</div>
-      <p>
-        Since spring of 2023, I've been working as a
-        <u>research assistant</u> with Stanford Future Data Systems (founders of
-        <a
-          class="gray-text"
-          href="https://arxiv.org/abs/2212.14024"
-          target="_blank"
-          >Demonstrate-Search-Predict</a
-        >, an NLP framework taught and used in Stanford's NLP classes).
-      </p>
-      <p>
-        I recently
-        <a
-          class="gray-text"
-          href="https://twitter.com/lateinteraction/status/1674197235209469952"
-          target="_blank"
-          >published</a
-        >
-        a Colab notebook on the lab's
-        <a
-          class="gray-text"
-          href="https://github.com/stanford-futuredata/ColBERT/tree/main"
-          target="_blank"
-          >Github page</a
-        >
-        allowing researchers to use the lab's <u>ColBERT package</u> on their
-        own data. This notebook has been high in demand, and I'm currently
-        working on making enhancements to the notebook as the ColBERT package is
-        being further developed. I have also helped the lab with their name
-        rebranding using by
-        <a
-          class="gray-text"
-          href="https://twitter.com/lateinteraction/status/1674197235209469952"
-          target="_blank"
-          >designing</a
-        >
-        their new logo with Adobe Illustrator. They're pretty cool people, and
-        I'm looking forward to continue working with them!
-      </p>
-      <p>
-        In spring 2023, I was also selected to be a <u>section leader</u> for
-        Stanford's introductory computer science courses. I've led 50-minute
-        discussions for about 20 students to help them practice the basics of
-        C++ and Python. I find it very rewarding knowing I'm helping someone
-        learn how to code for the first time.
-      </p>
-      <p>
-        This past summer, I've been a <u>software engineering intern</u> at
-        <a class="gray-text" href="https://www.playgroundrl.com" target="_blank"
-          >PlaygroundRL</a
-        >, a startup that combines a gaming website with opportunities to gather
-        research data. I've helped to build the website from the ground up as a
-        <u>full-stack developer</u>, solving bugs and implementing new features.
-        This internship made me very excited about <u>web development</u> and
-        actually motivated me to build this website.
-      </p>
+      <div class="center-flex top-margin-small">
+        <div class="vertical-split right-margin-small">
+          <button class="activities-button experience" onclick="currentExp(1)">
+            PlaygroundRL - SWE
+          </button>
+          <button class="activities-button experience" onclick="currentExp(2)">
+            Stanford Future Data Systems - RA
+          </button>
+          <button class="activities-button experience" onclick="currentExp(3)">
+            Stanford University - CA
+          </button>
+          <button class="activities-button experience" onclick="currentExp(4)">
+            Stanford Medicine X - Data Analyst
+          </button>
+        </div>
+        <div class="activities-box">
+          <div class="activity activities-hide">
+            <h3>
+              Software Engineering Intern
+              <span class="activities-location">@ PlaygroundRL</span>
+            </h3>
+            <div class="activities-date">MAY 2023 - SEP 2023</div>
+            <ul>
+              <li>
+                Implemented modernized webpage, popup, and banner designs with
+                Material-UI and React components
+              </li>
+              <li>
+                Developed feedback form built directly into frontend with HTML5
+                and wired output to Google Sheets using Google Apps Script,
+                enhancing user experience and opportunities for user input
+              </li>
+              <li>
+                Achieved full-stack Stripe API integration into website with
+                HTML5 and Django, enabling 100% automation of user reward
+                payouts with REST API
+              </li>
+              <li>
+                Evaluated software for bugs and response efficiency, resolving
+                bugs and simplifying code to increase page load time by 10%
+              </li>
+              <li>
+                Developed Full Stack Web development knowledge in Git, Python,
+                and Javascript in a fast-paced startup environment
+              </li>
+            </ul>
+          </div>
+          <div class="activity activities-hide">
+            <h3>
+              Research Assistant
+              <span class="activities-location"
+                >@ Stanford Future Data Systems</span
+              >
+            </h3>
+            <div class="activities-date">MAR 2023 - PRESENT</div>
+            <ul>
+              <li>
+                Strengthened Demonstrate-Search-Predict, an in-context
+                retrieval-augmented natural language framework, model training
+                accuracy by 10\% by enhancing 150+ HotPotQA multihop questions
+              </li>
+              <li>
+                Published a pip-installable ColBERT package enabling end-to-end
+                execution on Google Colab by resolving setup.py issues and
+                troubleshooting dependency conflicts, reaching over 10,000
+                impressions
+              </li>
+            </ul>
+          </div>
+          <div class="activity activities-hide">
+            <h3>
+              Course Assistant
+              <span class="activities-location">@ Stanford University</span>
+            </h3>
+            <div class="activities-date">MAR 2023 - PRESENT</div>
+            <ul>
+              <li>
+                Educated basic Python and C++ data structures and algorithms
+                through weekly 50-minute group teachings for 15+ students in
+                Stanford’s introductory computer science courses
+              </li>
+              <li>
+                Assisted 50+ students with debugging C++ and Python homework
+                assignments while teaching bug-tracing strategies
+              </li>
+            </ul>
+          </div>
+          <div class="activity activities-hide">
+            <h3>
+              Data Analyst
+              <span class="activities-location">@ Stanford Medicine X</span>
+            </h3>
+            <div class="activities-date">MAR 2022 - OCT 2022</div>
+            <ul>
+              <li>
+                Conducted mass financial and logistical data management on
+                Airtable and Google Sheets by updating three months of
+                backlogged summer project information
+              </li>
+              <li>
+                Increased data access efficiency of local CSV files by 150%
+                using Airtable scripting API
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="left-margin top-margin-small right-margin">
       <div id="projects" class="subtitle">Projects</div>
@@ -162,15 +213,6 @@
         past Dollies to look back on old memories and new Dollies to learn about
         their lineage.
       </p>
-      <!-- <img
-        class="center-image image-border"
-        src="./images/dollies.jpeg"
-        width="20%"
-        height="20%"
-      />
-      <figcaption class="center-image gray-text italic pt-3">
-        Me with the other 22-23 Dollies!
-      </figcaption> -->
       <p>
         I have other small projects sprinkled here and there through which I've
         learned simple machine-learning and app development. They can be found
@@ -179,12 +221,10 @@
     </div>
     <div class="left-margin top-margin-small right-margin">
       <div id="skills" class="subtitle">Skills</div>
-      <div class="center-flex">
-        <p>
-          I have a solid background in Python, C++/C, React, HTML5/CSS,
-          Javascript, GraphQL, and SQL.
-        </p>
-      </div>
+      <p>
+        I have a solid background in Python, C++/C, React, HTML5/CSS,
+        Javascript, GraphQL, and SQL.
+      </p>
       <p>
         In terms of software, I'm comfortable with Github, Linux/Unix, Jupyter
         notebooks, and the Microsoft Office.
@@ -197,15 +237,16 @@
     </div>
     <div class="left-margin top-margin-small right-margin">
       <p>
-        I made this site from scratch with HTML5/CSS! The
+        I made this site from scratch with HTML5/CSS and Javascript. The
         <a
           class="gray-text"
           href="https://github.com/hichewss/hichewss.github.io"
           target="_blank"
           >code</a
         >
-        for this is on my Github page.
+        for this is on my Github page. Inspiration taken from Brittany Chiang.
       </p>
     </div>
+    <script type="text/javascript" src="functions.js"></script>
   </body>
 </html>
