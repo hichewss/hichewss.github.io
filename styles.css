@@ -291,6 +291,7 @@ ul {
 }
 
 /* projects */
+
 .projects {
   width: 100%;
 }
@@ -328,6 +329,36 @@ ul {
   text-align: center;
   font-weight: 500;
   font-size: 18px;
+}
+
+/* skills */
+.skills {
+  width: 80%;
+}
+
+.skills-button {
+  width: max-content;
+  height: max-content;
+  border-radius: 25px;
+  padding: 15px 15px;
+  background-color: var(--purple-color);
+  color: var(--black-color);
+  font-family: "Victor Mono", monospace;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.skills-button:hover {
+  width: max-content;
+  height: max-content;
+  border-radius: 25px;
+  padding: 15px 15px;
+  background-color: none;
+  border: 2px solid var(--purple-color);
+  color: var(--black-color);
+  font-family: "Victor Mono", monospace;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 /* gaps and margins */
