@@ -361,6 +361,13 @@ ul {
   font-size: 16px;
 }
 
+.acknowledgements {
+  color: var(--purple-color);
+  font-family: "Victor Mono", monospace;
+  font-weight: 600;
+  font-size: 14px;
+}
+
 /* gaps and margins */
 .left-margin {
   margin-left: 10%;
