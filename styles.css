@@ -297,8 +297,8 @@ ul {
 }
 
 .projects-box {
-  width: 40vh;
-  height: 40vh;
+  width: 40%;
+  height: 40%;
   border-radius: 10px;
   background-color: var(--navbar-color);
   padding: 40px 50px;
